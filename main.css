@@ -1,0 +1,130 @@
+/* * {
+    border: 1px solid red;
+} */
+
+body {
+    width: 100%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, .image, .create-new-account {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.wrapper {
+    width: 400px;
+}
+
+.image {
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    border: solid rgb(214, 218, 223);
+    border-radius: 3px;
+    margin-top: 30px;
+    font-size:small;
+
+}
+
+label {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+input[type=text] {
+    height: 25px;
+}
+
+.pass-details {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+.continue-button {
+    background-color: rgb(255, 208, 0);
+    border: 1px solid darkgoldenrod;
+    margin-top: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: small;
+}
+
+.need-help {
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.new {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+.new-line {
+    height: 1px;
+    width: 30%;
+}
+
+div.create-new-account {
+    margin-bottom: 10%;
+}
+
+.new-to-amazon {
+    color: grey;
+}
+
+hr {
+    width: 100%;
+    size: 1;
+    color: lightslategrey;
+    background-color: lightslategray;
+    border-style: lightslategrey;
+    margin-right: none;
+}
+
+.create-button {
+    width: 95%;
+    height: 30px;
+}
+
+footer {
+    font-size: small;
+    margin-top: 20px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.footer-copy {
+    margin-top: 30px;
+}
